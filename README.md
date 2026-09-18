@@ -19,6 +19,6 @@ Bogor, Indonesia | Open for Full-time & Freelance
 `Python` `Flask` `SQL` `Excel Advanced` `Google Sheets` `Git`
 
 ### Contact
-- Email: email@lu.com
+- Email: oktbsyfladam12@gmail.com
 - LinkedIn: linkedin.com/in/namalu
-- WhatsApp: wa.me/628xxx
+- WhatsApp: wa.me/6285776577712

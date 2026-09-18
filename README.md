@@ -3,7 +3,7 @@
 ### Computer Science Graduate | Data Ops & System Builder
 Bogor, Indonesia | Open for Full-time & Freelance
 
-**Live Portfolio:** (https://github.com/oktbsyfladam12-alt/portfolio/blob/main/index.html)
+**Live Portfolio:** (https://oktbsyfladam12-alt.github.io/portfolio/)
 
 ### What I Do
 - Build simple inventory & admin systems (Python, Flask)

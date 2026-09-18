@@ -3,107 +3,90 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Oktoba Syaeful Adam, S.Kom - Python | Flask | QA Automation</title>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<title>Oktoba Syaeful Adam, S.Kom</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Plus Jakarta Sans',sans-serif;background:#070708;color:#EDEDED;line-height:1.6}
-.container{max-width:1120px;margin:0 auto;padding:0 24px}
-.hero{padding:90px 0 60px;display:grid;grid-template-columns:1.2fr 0.8fr;gap:40px;align-items:center;border-bottom:1px solid #1E1E22}
-@media(max-width:900px){.hero{grid-template-columns:1fr}}
-.badge{display:inline-flex;gap:8px;align-items:center;background:#121214;border:1px solid #232328;padding:6px 14px;border-radius:100px;font-size:11px;letter-spacing:1.5px;font-weight:800;color:#A1A1AA;text-transform:uppercase;margin-bottom:20px}
-.dot{width:7px;height:7px;background:#22C55E;border-radius:50%;box-shadow:0 0 12px #22C55E}
-h1{font-size:clamp(38px,5.5vw,62px);font-weight:800;letter-spacing:-2.5px;line-height:0.9;margin-bottom:18px}
-.grad{background:linear-gradient(90deg,#FFFFFF 30%,#52525B 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-.lead{font-size:17px;color:#A1A1AA;max-width:560px;margin-bottom:28px}
-.stack{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}
-.stack span{font-family:'JetBrains Mono';font-size:11px;padding:7px 12px;background:#121214;border:1px solid #232328;border-radius:100px}
-.btn{padding:14px 26px;border-radius:100px;font-weight:800;text-decoration:none;display:inline-flex;font-size:14px}
-.btn-w{background:#fff;color:#000}
-.btn-b{background:#121214;border:1px solid #2A2A30;color:#fff}
-.codebox{background:#0F0F10;border:1px solid #232328;border-radius:20px;padding:20px;font-family:'JetBrains Mono';font-size:12.5px;color:#A1A1AA;line-height:1.7}
-.section{padding:60px 0;border-bottom:1px solid #1E1E22}
-.stitle{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#52525B;font-weight:800;margin-bottom:26px;display:flex;align-items:center;gap:12px}
-.stitle::after{content:'';flex:1;height:1px;background:#1E1E22}
-.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-@media(max-width:900px){.grid3,.grid2{grid-template-columns:1fr}}
-.card{background:#121214;border:1px solid #1E1E22;border-radius:20px;padding:26px}
-.card h3{font-size:16px;margin-bottom:8px}
-.card p{font-size:13.5px;color:#A1A1AA}
-.tag{font-family:'JetBrains Mono';font-size:10px;padding:4px 9px;background:#1A1A1E;border:1px solid #2A2A30;border-radius:100px;color:#A1A1AA;display:inline-block;margin:3px}
-.hl{background:linear-gradient(135deg,#121214,#15151A);border:1px solid #2A2A30;border-radius:24px;padding:32px}
+body{font-family:'Plus Jakarta Sans',sans-serif;background:#FBFBF9;color:#18181B;line-height:1.7}
+.container{max-width:980px;margin:0 auto;padding:0 24px}
+.hero{padding:80px 0 50px;display:grid;grid-template-columns:1.15fr 0.85fr;gap:48px;align-items:center;border-bottom:1px solid #E4E4E7}
+@media(max-width:900px){.hero{grid-template-columns:1fr;padding:50px 0 36px}}
+.badge{display:inline-block;background:#F4F4F5;border:1px solid #E4E4E7;padding:6px 14px;border-radius:100px;font-size:11px;letter-spacing:1px;font-weight:600;color:#52525B;margin-bottom:18px}
+h1{font-size:clamp(36px,5vw,52px);font-weight:700;letter-spacing:-1.5px;line-height:1.05;margin-bottom:16px}
+.lead{font-size:16.5px;color:#52525B;max-width:520px;margin-bottom:24px}
+.stack{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
+.stack span{font-family:'JetBrains Mono';font-size:11px;padding:6px 11px;background:#fff;border:1px solid #E4E4E7;border-radius:100px;color:#52525B}
+.btn{padding:13px 22px;border-radius:100px;font-weight:600;text-decoration:none;display:inline-flex;font-size:14px}
+.btn-dark{background:#18181B;color:#fff}
+.btn-light{background:#fff;border:1px solid #E4E4E7;color:#18181B}
+.card{background:#FFFFFF;border:1px solid #E4E4E7;border-radius:16px;padding:24px}
+.section{padding:48px 0;border-bottom:1px solid #E4E4E7}
+.stitle{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#A1A1AA;font-weight:700;margin-bottom:20px}
+h3{font-size:16px;font-weight:600;margin-bottom:6px}
+p.small{font-size:14px;color:#52525B}
+.tag{font-family:'JetBrains Mono';font-size:10px;padding:4px 8px;background:#F4F4F5;border:1px solid #E4E4E7;border-radius:100px;color:#52525B;display:inline-block;margin:2px}
+.code{background:#18181B;color:#A1A1AA;border-radius:16px;padding:20px;font-family:'JetBrains Mono';font-size:12px;line-height:1.7}
 </style>
 </head>
 <body>
 <div class="container">
 <div class="hero">
 <div>
-<div class="badge"><div class="dot"></div> S.KOM • PYTHON • FLASK • QA AUTOMATION • OPEN TO WORK</div>
-<h1>Oktoba Syaeful<br><span class="grad">Adam, S.Kom</span></h1>
-<p class="lead">Lulusan Ilmu Komputer dengan background <b style="color:#fff">Sekretaris Desa</b> yang membangun sistem. Fokus di <b style="color:#fff">Python, Flask & QA Automation</b> untuk bikin sistem administrasi yang gak cuma jalan, tapi teruji.</p>
+<div class="badge">BOGOR • TERBUKA UNTUK KESEMPATAN BARU</div>
+<h1>Oktoba Syaeful<br>Adam, S.Kom</h1>
+<p class="lead">Lulusan Ilmu Komputer. Pernah bertugas sebagai Sekretaris Desa, saat ini sedang mendalami pengembangan web dengan Python (Flask) dan QA Automation. Saya senang belajar hal baru dan mencoba membantu menyelesaikan pekerjaan secara lebih rapi.</p>
 <div class="stack">
-<span style="background:#17301a;border-color:#22c55e;color:#86efac">Python</span>
-<span style="background:#1a1a1a;border-color:#fff;color:#fff">Flask</span>
-<span style="background:#211a30;border-color:#a78bfa;color:#c4b5fd">QA Automation</span>
-<span>Selenium</span><span>Pytest</span><span>REST API</span><span>MySQL</span><span>Git</span>
+<span>Python</span><span>Flask</span><span>QA Automation</span><span>Selenium</span><span>Pytest</span><span>MySQL</span><span>Git</span><span>Administrasi</span>
 </div>
 <div style="display:flex;gap:10px;flex-wrap:wrap">
-<a href="https://wa.me/6285776577712" class="btn btn-w">WhatsApp 0857-7657-7712 →</a>
-<a href="mailto:oktbsyfladam12@gmail.com" class="btn btn-b">Email</a>
+<a href="https://wa.me/6285776577712" class="btn btn-dark">Hubungi via WhatsApp</a>
+<a href="mailto:oktbsyfladam12@gmail.com" class="btn btn-light">Kirim Email</a>
 </div>
-<p style="margin-top:16px;font-family:JetBrains Mono;font-size:12px;color:#52525B">Bogor - Indonesia • oktbsyfladam12@gmail.com • 085776577712</p>
+<p style="margin-top:14px;font-family:JetBrains Mono;font-size:11px;color:#A1A1AA">oktbsyfladam12@gmail.com • 0857-7657-7712 • Bogor</p>
 </div>
-<div class="codebox">
-<div style="color:#52525B;margin-bottom:12px">● ● ● app.py — Flask + QA</div>
-# Sistem Surat Desa - Flask API<br>
-from flask import Flask, jsonify<br>
-from automation import test_surat_flow<br><br>
-app = Flask(__name__)<br><br>
-@app.route("/api/surat/buat")<br>
-def buat_surat():<br>
-&nbsp;&nbsp;data = request.json<br>
-&nbsp;&nbsp;# validasi + generate PDF<br>
-&nbsp;&nbsp;return jsonify({"status": "surat terbit"})<br><br>
-# QA Automation<br>
-def test_flow():<br>
-&nbsp;&nbsp;assert test_surat_flow() == True ✅<br><br>
-<div style="margin-top:16px;padding-top:12px;border-top:1px dashed #232328;color:#71717a">
-▶ Sekretaris Desa (Admin Pemerintahan)<br>
-▶ Spesialisasi: Manual → Sistem Terotomasi & Teruji
+<div>
+<div class="code">
+<span style="color:#71717A"># Sedikit tentang yang sedang saya pelajari</span><br><br>
+<span style="color:#fff">Saya terbiasa</span> mengurus surat dan arsip di desa.<br>
+Dari situ saya mencoba membuat sistem sederhana<br>
+agar prosesnya bisa sedikit lebih cepat.<br><br>
+<span style="color:#71717A"># Flask untuk backend, Pytest untuk testing</span><br>
+<span style="color:#fff">Masih terus belajar</span>, mohon bimbingannya 🙏
 </div>
 </div>
 </div>
 
 <div class="section">
-<div class="stitle">Keahlian Teknik</div>
-<div class="grid3">
-<div class="card"><h3>🐍 Python Development</h3><p>Scripting otomasi, data processing, backend logic untuk percepat kerja admin repetitif.</p><div style="margin-top:10px"><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">Automation</span></div></div>
-<div class="card"><h3>🌶️ Flask & Web System</h3><p>Bangun Sistem Informasi Desa surat online dengan Flask. REST API, MySQL, generate PDF otomatis.</p><div style="margin-top:10px"><span class="tag">Flask</span><span class="tag">REST API</span><span class="tag">MySQL</span></div></div>
-<div class="card"><h3>🧪 QA Automation</h3><p>Pastikan sistem gak error. Bikin test case & automation testing biar surat gak salah cetak.</p><div style="margin-top:10px"><span class="tag">Selenium</span><span class="tag">Pytest</span><span class="tag">Test Case</span></div></div>
+<div class="stitle">Pengalaman</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+<div class="card">
+<h3>Sekretaris Desa</h3>
+<p class="small">Membantu pelayanan administrasi warga, pengelolaan surat-menyurat dan pengarsipan. Belajar tentang ketelitian dan tanggung jawab.</p>
+</div>
+<div class="card">
+<h3>Sedang Mendalami</h3>
+<p class="small">Belajar membuat aplikasi web sederhana menggunakan Python dan Flask, serta belajar melakukan pengujian (QA) agar aplikasi berjalan dengan lebih baik.</p>
+<div style="margin-top:8px"><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">Selenium</span><span class="tag">Pytest</span></div>
+</div>
 </div>
 </div>
 
 <div class="section">
-<div class="stitle">Project Unggulan - Python Flask QA</div>
-<div class="hl">
-<h3 style="font-size:26px;letter-spacing:-1px;margin-bottom:10px">Sistem Informasi Desa - Surat Online (Flask)</h3>
-<p style="color:#A1A1AA;max-width:700px;font-size:14px">Project asli yang sudah dipakai sebagai Sekretaris Desa. Warga request surat via web, sistem validasi otomatis (Python), generate PDF, admin approve. Dari 2 hari jadi 15 menit. Ditambah QA automation biar setiap update gak jebol.</p>
-<div style="margin-top:16px"><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">MySQL</span><span class="tag">QA: Selenium + Pytest</span><span class="tag">Live di Desa</span></div>
-</div>
-<div class="grid2" style="margin-top:16px">
-<div class="card"><h3>QA Automation - Test Alur Surat</h3><p>Skrip Pytest + Selenium untuk simulasi warga buat surat: login, isi form, upload KK, sampai PDF jadi. Jika ada bug, ketahuan sebelum warga komplain.</p></div>
-<div class="card"><h3>Flask API - Digital Arsip Service</h3><p>API kecil buat search arsip kependudukan. Input NIK, langsung keluar riwayat surat. Dibuat pakai Flask + MySQL, di-test pakai Postman.</p></div>
+<div class="stitle">Proyek</div>
+<div class="card">
+<h3>Sistem Informasi Surat Desa - Sederhana (Flask)</h3>
+<p class="small" style="margin-top:6px">Sistem sederhana untuk membantu proses pembuatan surat warga. Dibuat menggunakan Flask dan MySQL. Saya coba tambahkan pengujian sederhana dengan Pytest. Proyek ini masih sederhana dan terus saya perbaiki.</p>
+<div style="margin-top:10px"><span class="tag">Flask</span><span class="tag">Python</span><span class="tag">MySQL</span><span class="tag">Belajar QA</span></div>
 </div>
 </div>
 
-<div class="section" style="text-align:center">
-<h2 style="font-size:34px;letter-spacing:-1.5px">S.Kom yang ngerti lapangan.<br>Python & QA buat sistem yang beres.</h2>
-<p style="color:#A1A1AA;margin:12px auto 28px;max-width:560px">Terbuka untuk Backend Flask, QA Automation, IT Support, Admin System.</p>
-<a href="https://wa.me/6285776577712" class="btn btn-w" style="padding:18px 34px;font-size:16px">Hubungi: 0857-7657-7712</a>
-<div style="margin-top:12px;font-family:JetBrains Mono;font-size:12px;color:#52525B">oktbsyfladam12@gmail.com • Bogor • github.com/oktbsyfladam12-alt</div>
+<div class="section" style="text-align:center;border-bottom:none">
+<h2 style="font-size:28px;letter-spacing:-1px;font-weight:700">Terima kasih sudah meluangkan waktu<br>untuk melihat portfolio sederhana ini.</h2>
+<p style="color:#52525B;margin:14px auto 24px;max-width:540px;font-size:14px">Saya masih dalam proses belajar dan sangat terbuka untuk masukan serta kesempatan untuk berkembang.</p>
+<a href="https://wa.me/6285776577712" class="btn btn-dark" style="padding:16px 28px">Hubungi Saya</a>
 </div>
-<footer style="padding:40px 0;text-align:center;color:#3F3F46;font-size:12px;font-family:JetBrains Mono">© 2026 Oktoba Syaeful Adam, S.Kom — Python | Flask | QA Automation | Ex-Sekretaris Desa</footer>
+
+<footer style="padding:32px 0;text-align:center;color:#A1A1AA;font-size:11px;font-family:JetBrains Mono;border-top:1px solid #E4E4E7">© 2026 Oktoba Syaeful Adam, S.Kom</footer>
 </div>
 </body>
 </html>

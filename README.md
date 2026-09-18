@@ -1,48 +1,40 @@
 # Oktoba Syaeful Adam, S.Kom
 
-Lulusan Ilmu Komputer yang pernah bertugas sebagai Sekretaris Desa. Saat ini sedang mendalami pengembangan web dengan Python (Flask) dan QA Automation.
+Lulusan Ilmu Komputer dengan pengalaman sebagai Sekretaris Desa dalam pengelolaan administrasi dan pelayanan warga. Saat ini fokus pada pengembangan sistem dengan Python, Flask, dan QA Automation untuk membantu proses kerja menjadi lebih efisien.
 
-Saya senang belajar hal baru dan mencoba membantu pekerjaan menjadi sedikit lebih rapi dan efisien.
-
-**Lokasi:** Bogor, Indonesia
-**Email:** oktbsyfladam12@gmail.com
-**WhatsApp:** 0857-7657-7712
+**Bogor, Indonesia | oktbsyfladam12@gmail.com | 0857-7657-7712**
 
 ### 🌐 Portfolio
-https://oktbsyfladam12-alt.github.io/portfolio/
+**https://oktbsyfladam12-alt.github.io/portfolio/**
 
-### 📖 Tentang Saya
-Saya terbiasa membantu pelayanan administrasi warga, pengelolaan surat-menyurat dan pengarsipan di desa. Dari pengalaman tersebut, saya mencoba membuat sistem sederhana agar prosesnya bisa sedikit lebih cepat.
+### Tentang Saya
+Berpengalaman dalam pelayanan administrasi, pengelolaan surat-menyurat dan pengarsipan. Dari pengalaman tersebut, saya mengembangkan sistem berbasis web untuk membantu proses administrasi agar lebih tertata dan efisien.
 
-Saat ini masih dalam proses belajar pengembangan aplikasi web.
+### Keahlian
+- **Python** - Pengembangan logika dan otomasi proses
+- **Flask** - Pengembangan web dan REST API
+- **QA Automation** - Pengujian sistem dengan Selenium & Pytest
+- **MySQL, Git, REST API**
+- **Administrasi & Pengelolaan Arsip**
 
-### 🛠️ Yang Sedang Saya Pelajari
-- **Python** - Dasar pemrograman dan otomasi sederhana
-- **Flask** - Membuat web dan REST API sederhana
-- **QA Automation** - Belajar pengujian dengan Selenium & Pytest
-- **MySQL** - Pengelolaan database dasar
-- **Git & GitHub**
-- **Administrasi & Pengarsipan**
+### Proyek
 
-### 📂 Proyek Sederhana
+**1. Sistem Informasi Desa - Layanan Surat Online**
+Sistem untuk layanan pembuatan surat warga secara online, mulai dari pengajuan, validasi data, hingga generate dokumen. Dibangun dengan Flask dan MySQL, dilengkapi pengujian otomatis untuk memastikan alur berjalan dengan baik.
+`Python | Flask | MySQL | Selenium | Pytest`
 
-**1. Sistem Informasi Surat Desa (Flask)**
-Sistem sederhana untuk membantu proses pembuatan surat warga. Dibuat menggunakan Flask dan MySQL. Saya coba tambahkan pengujian sederhana agar alurnya bisa dicek. Proyek ini masih sederhana dan terus saya perbaiki.
-- Tech: Flask, Python, MySQL, Belajar QA
+**2. Pengujian Otomatis Alur Surat**
+Implementasi automation testing untuk mensimulasikan alur pembuatan surat dari awal hingga dokumen terbit.
 
-**2. Latihan QA Automation**
-Mencoba membuat skenario pengujian otomatis untuk alur pembuatan surat.
+**3. API Arsip Kependudukan**
+Layanan API untuk pencarian riwayat surat berdasarkan NIK, memudahkan pengelolaan arsip.
 
-**3. Latihan API Arsip**
-Mencoba membuat API sederhana untuk pencarian arsip berdasarkan NIK.
+### Terbuka Untuk Kesempatan
+- IT Support / Staff Administrasi Sistem
+- Junior Backend Developer (Python Flask)
+- QA Manual / QA Automation
 
-### 🤝 Terbuka Untuk
-Saya sangat terbuka untuk masukan, saran, serta kesempatan belajar dan berkembang, terutama di bidang:
-- Staff Administrasi / IT Support
-- Junior Backend (Flask)
-- QA Manual / QA Automation (Pemula)
-
-Terima kasih sudah berkunjung. Mohon bimbingannya.
+Terima kasih telah berkunjung.
 
 ---
 © 2026 Oktoba Syaeful Adam, S.Kom
